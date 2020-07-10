@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,64 +144,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-headr nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     
 }
-.logo {
-    width: 20%;
+body {
+    width: 80%;
+    margin: 0 auto;
 }
-.logo img {
-    max-width: 100%;
+header {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;  
+}
+.logo {
+    width: 5%;
 }
 
-.nav-bar {
-    width:70%;
+nav {
+    width:60%;
     display:flex;
     justify-content:space-around;
-    align-items:center;
-
+    align-items: baseline;
+    
 }
 nav a{
     text-decoration:none;
-    letter-spacing:3px;
     color: black;
   }
-section img {
+.img1 {
     display: block;
-    margin-left: 348px;
+    margin-left: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
+     
 }
-
-.about {
-    width: 80%;
-    justify-content: center;
-}
-.about-page {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.section1 img {
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-.content-1 {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-evenly;
-}
-.middle-page {
-    width: 90%;
-}
-.content-2 {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-evenly;
 
 }
+.section1 p {
+    border-bottom: dotted;
+}
+
+#middle {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 200px;
+  
+}
+
+#middle .middle-page {
+    width: 35%;
+    /* padding: 0 1%; */
+    /* padding-bottom: 20px;   */
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+#middle .middle-page .one {
+    margin-bottom: 10px;
+    
+}
+
+
+.last-page {
+    width: 35%;
+    /* padding: 0 1%; */
+    /* padding-bottom: 20px;   */
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-right: 100px;
+    
+}
+#middle .last-page .one {
+    margin-bottom: 10px;
+    
+}
+.last-section {
+    width: 800px;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+
+
+
