@@ -51,7 +51,7 @@ the main axis for align-items is vertically. it mean from top to bottom.
 
 5. Explain why git is valuable to a team of developers.
 
-Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project. This allows multiple people to work on the same files at the same time
+Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project. This allows multiple people to work on the same files at the same time.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
